@@ -4,7 +4,7 @@ const {json} = require('body-parser')
 const app = express()
 const massive = require('massive')
 const port = 3001;
-const {getHouses, deleteHouse, addHouse} = require('./controllers/house_controller')
+const {getHouses, deleteHouse, addHouse} = require('./controller/controller')
 
 app.use(json())
 
