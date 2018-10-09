@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { getHomes } from "../../ducks/reducer";
+import { getHomes } from "../../Ducks/reducer";
 import Delete from "../Delete";
 import axios from "axios";
 import { Link } from "react-router-dom";
