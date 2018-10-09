@@ -13,10 +13,8 @@ class App extends Component {
     return (
       <Provider store={store}>
         <HashRouter>
-          <div className="App">
-            <div>
-              <Header />
-            </div>
+          <div>
+            <Header />
             {routes}
           </div>
         </HashRouter>
