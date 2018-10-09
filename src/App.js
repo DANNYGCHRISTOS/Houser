@@ -6,6 +6,7 @@ import "./App.css";
 import { Provider } from "react-redux";
 import store from "./store";
 import Header from "./components/Header/Header";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
